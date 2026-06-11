@@ -22,51 +22,44 @@ The model assesses transaction feasibility, debt repayment capacity, cash flow g
 
 ## 📂 Model Structure
 
-### 1. Transaction Assumptions
-- Revenue & EBITDA Base Year
+### Transaction Assumptions
 - Entry EV/EBITDA Multiple
+- Revenue & EBITDA Base
 - Existing Net Debt
 - Purchase Price
-- Transaction Fees
-- Exit EV/EBITDA Multiple
 
-### 2. Sources & Uses Analysis
+### Sources & Uses
 - Term Loan A
-- High Yield Debt / NCD
+- NCD / High Yield Debt
 - Sponsor Equity
-- Equity Purchase Price
-- Debt Refinancing
-- Transaction Costs
+- Fees & Expenses
 
-### 3. Operating Forecast
-- Revenue Growth Projections
-- EBITDA Margin Assumptions
-- Depreciation Forecast
-- Capital Expenditure Forecast
-- Net Working Capital Assumptions
-
-### 4. Debt Schedule
-- Term Loan Amortization
-- Interest Expense Calculation
-- Cash Sweep Mechanism
-- Bullet Debt Repayment
-- Ending Debt Balance
-
-### 5. Levered Free Cash Flow (LFCF)
+### Operating Forecast
+- Revenue Growth
+- EBITDA Margin
+- EBIT
 - Net Income
-- Depreciation Add-back
-- Capital Expenditure
-- Working Capital Changes
-- Levered Free Cash Flow
 
-### 6. Exit Analysis
-- Exit Enterprise Value
+### Debt Schedule
+- Interest Expense
+- Mandatory Amortization
+- Excess Cash Sweep
+- Debt Paydown
+
+### Leveraged Free Cash Flow
+- Net Income
+- D&A
+- Capex
+- Change in NWC
+- LFCF
+
+### Exit Analysis
+- Exit EBITDA
+- Exit EV
 - Exit Equity Value
-- Debt Paydown Impact
-- Equity Value Creation
 
-### 7. Investor Returns
-- Money-on-Cash Multiple (MoC)
+### Returns Analysis
+- Money-on-Money (MoM)
 - Internal Rate of Return (IRR)
 
 ---
@@ -146,11 +139,12 @@ Measures annualized equity returns generated over the holding period.
 
 ## 🔎 Key Insights
 
-- Leverage amplifies equity returns when operating performance improves.
-- Debt paydown is a major driver of value creation.
-- EBITDA growth significantly impacts exit valuation.
-- Exit multiple assumptions materially affect investor returns.
-- Strong cash flow generation improves IRR and MoC outcomes.
+- Debt reduces significantly from ₹1,877 Cr at entry to ₹433 Cr by Year 5.
+- Revenue grows from ₹1,860 Cr to ₹2,888 Cr over the investment period.
+- EBITDA increases from ₹417 Cr to ₹693 Cr.
+- Exit Equity Value expands from ₹1,877 Cr to ₹5,801 Cr.
+- MoM reaches approximately 3.41x by Year 5.
+- IRR exceeds 27%, indicating attractive private equity returns.
 
 ---
 
@@ -180,35 +174,9 @@ This model helps:
 - Corporate Finance
 - Excel Modeling
 
----
-
-## 📷 Project Preview
-
-### Sources & Uses Analysis
-![Sources and Uses](sources-uses.png)
-
-### Debt Schedule
-![Debt Schedule](debt-schedule.png)
-
-### Financial Projections
-![Financial Projections](financial-projections.png)
-
-### Returns Analysis
-![LBO Returns](lbo-returns.png)
 
 ---
 
-## 📁 Project Files
-
-- LBO Model (Excel)
-- Sources & Uses Schedule
-- Debt Schedule
-- Financial Projections
-- Levered Free Cash Flow Analysis
-- Exit Valuation
-- IRR & MoC Analysis
-
----
 
 ## 👨‍💼 Author
 
