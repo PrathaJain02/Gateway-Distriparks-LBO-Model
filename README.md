@@ -4,7 +4,7 @@
 
 Built a Leveraged Buyout (LBO) model to evaluate the acquisition of Gateway Distriparks Ltd. using a combination of debt and sponsor equity financing.
 
-The model assesses transaction feasibility, debt repayment capacity, cash flow generation, and investor returns through Money-on-Cash (MoC) and Internal Rate of Return (IRR) analysis.
+The model assesses transaction feasibility, debt repayment capacity, cash flow generation, and investor returns through Money-on-Money (MoM) and Internal Rate of Return (IRR) analysis.
 
 ---
 
@@ -20,6 +20,18 @@ The model assesses transaction feasibility, debt repayment capacity, cash flow g
 
 ---
 
+## 📷 Project Preview
+
+### Sources & Uses, Operating Forecast & Debt Schedule
+
+![LBO Structure](lbo-structure-and-debt.png)
+
+### Exit Valuation & Investor Returns
+
+![LBO Returns](lbo-returns.png)
+
+---
+
 ## 📂 Model Structure
 
 ### Transaction Assumptions
@@ -27,36 +39,39 @@ The model assesses transaction feasibility, debt repayment capacity, cash flow g
 - Revenue & EBITDA Base
 - Existing Net Debt
 - Purchase Price
+- Exit EV/EBITDA Multiple
 
 ### Sources & Uses
 - Term Loan A
 - NCD / High Yield Debt
 - Sponsor Equity
 - Fees & Expenses
+- Total Acquisition Cost
 
 ### Operating Forecast
 - Revenue Growth
-- EBITDA Margin
-- EBIT
-- Net Income
+- EBITDA Margin Expansion
+- EBIT Forecast
+- Net Income Projection
 
 ### Debt Schedule
 - Interest Expense
 - Mandatory Amortization
 - Excess Cash Sweep
-- Debt Paydown
+- Debt Paydown Analysis
 
-### Leveraged Free Cash Flow
+### Leveraged Free Cash Flow (LFCF)
 - Net Income
-- D&A
-- Capex
-- Change in NWC
-- LFCF
+- Depreciation & Amortization
+- Capital Expenditure
+- Change in Net Working Capital
+- Leveraged Free Cash Flow
 
 ### Exit Analysis
 - Exit EBITDA
-- Exit EV
+- Exit Enterprise Value
 - Exit Equity Value
+- Net Debt at Exit
 
 ### Returns Analysis
 - Money-on-Money (MoM)
@@ -68,50 +83,40 @@ The model assesses transaction feasibility, debt repayment capacity, cash flow g
 
 ### Transaction Structure
 
-The acquisition is financed through:
+The acquisition is financed through a mix of:
 
 - Senior Debt (Term Loan A)
-- High Yield Debt / NCD
+- NCD / High Yield Debt
 - Sponsor Equity
 
-The model evaluates the optimal capital structure and leverage profile.
-
----
+The model evaluates the impact of leverage on investor returns and overall transaction feasibility.
 
 ### Sources & Uses Analysis
 
-The model builds a complete Sources & Uses schedule showing:
+A complete Sources & Uses schedule is constructed to determine:
 
-- Total Acquisition Cost
-- Debt Financing
+- Equity Purchase Price
+- Debt Financing Requirement
 - Sponsor Equity Contribution
-- Fees & Expenses
-
----
+- Fees and Transaction Costs
 
 ### Debt Paydown Analysis
 
 A detailed debt schedule tracks:
 
 - Interest Payments
-- Mandatory Amortization
+- Mandatory Debt Amortization
 - Excess Cash Sweep
-- Bullet Repayment at Exit
+- Debt Reduction Over the Holding Period
 
-This demonstrates how cash flows reduce leverage over the investment period.
+### Leveraged Free Cash Flow (LFCF)
 
----
-
-### Levered Free Cash Flow (LFCF)
-
-The model estimates cash available to equity investors after:
+The model estimates cash available to investors after:
 
 - Operating Expenses
-- Interest Payments
+- Interest Costs
 - Capital Expenditure
-- Working Capital Investments
-
----
+- Working Capital Requirements
 
 ### Exit Valuation
 
@@ -121,30 +126,30 @@ Exit value is determined using:
 - Exit EV/EBITDA Multiple
 - Net Debt at Exit
 
-The model calculates the resulting equity value available to investors.
-
----
+The model then calculates the resulting equity value available to sponsors.
 
 ### Returns Analysis
 
-The model evaluates investment attractiveness through:
+The investment is evaluated using:
 
-#### Money-on-Cash Multiple (MoC)
-Measures total cash returned relative to sponsor equity invested.
+#### Money-on-Money (MoM)
+
+Measures total value created relative to sponsor equity invested.
 
 #### Internal Rate of Return (IRR)
-Measures annualized equity returns generated over the holding period.
+
+Measures the annualized return generated over the investment period.
 
 ---
 
 ## 🔎 Key Insights
 
-- Debt reduces significantly from ₹1,877 Cr at entry to ₹433 Cr by Year 5.
-- Revenue grows from ₹1,860 Cr to ₹2,888 Cr over the investment period.
-- EBITDA increases from ₹417 Cr to ₹693 Cr.
-- Exit Equity Value expands from ₹1,877 Cr to ₹5,801 Cr.
-- MoM reaches approximately 3.41x by Year 5.
-- IRR exceeds 27%, indicating attractive private equity returns.
+- Debt declines significantly from **₹1,877 Cr** at acquisition to **₹433 Cr** by Year 5.
+- Revenue increases from **₹1,860 Cr** to **₹2,888 Cr** over the forecast period.
+- EBITDA grows from **₹417 Cr** to **₹693 Cr**.
+- Exit Equity Value expands from **₹1,877 Cr** to approximately **₹5,804 Cr**.
+- Money-on-Money (MoM) reaches approximately **3.41x** by Year 5.
+- Equity IRR remains above **27%**, indicating attractive private equity returns.
 
 ---
 
@@ -152,11 +157,11 @@ Measures annualized equity returns generated over the holding period.
 
 This model helps:
 
-- Evaluate private equity investment opportunities.
-- Assess acquisition feasibility.
-- Analyze debt capacity and repayment ability.
+- Evaluate private equity acquisition opportunities.
+- Assess debt repayment capacity.
+- Analyze transaction feasibility.
 - Estimate investor returns under different scenarios.
-- Support investment committee decision-making.
+- Support investment committee and deal-screening decisions.
 
 ---
 
@@ -170,13 +175,23 @@ This model helps:
 - Capital Structure Analysis
 - Valuation
 - IRR Analysis
-- MoC Analysis
+- MoM Analysis
 - Corporate Finance
 - Excel Modeling
 
-
 ---
 
+## 📁 Project Files
+
+- LBO Model (Excel)
+- Sources & Uses Analysis
+- Operating Forecast Model
+- Debt Schedule
+- Leveraged Free Cash Flow Analysis
+- Exit Valuation
+- MoM & IRR Returns Analysis
+
+---
 
 ## 👨‍💼 Author
 
